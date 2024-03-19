@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  animation: animate 17s ease-in-out infinite;
+  background-size: cover;
+}
+
+@keyframes animate {
+
+  0%,
+  100% {
+    background-image: url(img/1.jpg);
+  }
+
+  25% {
+    background-image: url(img/2.jpg);
+  }
+
+  50% {
+    background-image: url(img/3.jpg);
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #4CAF50;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 20px;
+  color: #fff;
+}
+
+.navbar h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.welcome {
+  text-align: center;
+  margin-top: 90px;
+  font-size: 35px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.welcome h1 {
+  margin-bottom: 25px;
+}
+
+span {
+  font-size: 21px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  width: 250px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
